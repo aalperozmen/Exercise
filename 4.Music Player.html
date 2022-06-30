@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 10px;
+        }
+        
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .player {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+            width: 100%;
+            height: 30rem;
+            padding: 3rem;
+            margin: 2rem;
+            border-radius: 2rem;
+        }
+
+        .icon-items {
+            display: flex;
+            margin-bottom: 3.5rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon {
+            width: 3rem;
+            height: 3rem;
+            background-color: black;
+            margin-left: 4rem;
+            margin-right: 4rem;
+        }
+
+        .icon:nth-child(2){
+            background-color: brown;
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .times {
+            display: flex;
+            width: 100%;
+        }
+
+        .second {
+            width: 5rem;
+            height: 3rem;
+            background-color: black;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+
+        .stick {
+            background-color: black;
+            width: 100%;
+            height: 3rem;
+            margin: 0 2rem;
+            flex-grow: 2;   
+        }
+
+        .stick-2 {
+            height: inherit;
+            width: 40%;
+            background-color: brown;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div class="player">
+        <div class="icon-items">
+            <div class="icon"></div>
+            <div class="icon"></div>
+            <div class="icon"></div>
+        </div>
+        <div class="times">
+            <div class="second"></div>
+            <div class="stick">
+                <div class="stick-2"></div>
+            </div>
+            <div class="second"></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
