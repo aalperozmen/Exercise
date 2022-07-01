@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  height: 200px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}

@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #555;
+  padding: 7rem 5rem;
+  position: relative;
+  border-radius: 90% 90% 98% 98%;
+}
+
+.container img {
+  width: 400px;
+  position: absolute;
+  top: -220px;
+  right: 40px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.content .span1,
+.content .span2,
+.content .span3 {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 30px;
+  margin: 20px;
+}
+
+.content .span1-content,
+.content .span3-content {
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.content .span2-content {
+  position: absolute;
+  top: 100px;
+}
+
+.cizgi {
+  border-top: 3px solid #fff;
+  width: 100px;
+}
